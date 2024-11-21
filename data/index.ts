@@ -76,12 +76,12 @@ export const projects = [
     des: "QuikNote is a pioneering digital platform revolutionizing academic resource sharing across Ghana and beyond",
     img: "/quiknote.svg",
     iconLists: ["/php.svg", "/laravel.svg", "/mysql.svg", "/apache.svg", "/git.svg"],
-    link: "/quiknoteonline.com",
+    link: "quiknoteonline.com",
   },
   {
     id: 2,
     title: "Key Vault Explorer",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    des: "Key Vault Explorer is a GitHub Action that streamlines secret management in CI/CD pipelines by automatically retrieving secrets from Azure Key Vault. This action simplifies secure credential handling, enabling seamless integration with Azure services while maintaining security best practices",
     img: "/kve.svg",
     iconLists: ["/dockerName.svg", "/git.svg", "/ts.svg"],
     link: "/ui.yoom.com",
@@ -89,18 +89,18 @@ export const projects = [
   {
     id: 3,
     title: "Fly-deno backend Framework",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    des: "Fly-deno is a lightweight backend framework built with Deno runtime, focusing on simplicity and performance. This from-scratch implementation offers essential server-side features while maintaining minimal overhead",
     img: "/flydeno.svg",
     iconLists: ["/deno.svg", "/mongodb.svg", "/ts.svg", "/aws.svg", "/nginx.svg"],
-    link: "/ui.aiimg.com",
+    link: "/https://www.youtube.com/watch?v=6raZmyvgr68&t=1s",
   },
   {
     id: 4,
     title: "Campus Gem Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    des: "Campus Gem is a transformative Christian youth movement focused on mental renewal and spiritual growth through Christ-centered principles",
     img: "/campusgem.svg",
     iconLists: ["/nodejs.svg", "/dockerName.svg", "/handlebars.svg","mongodb.svg"],
-    link: "/campusgem.org",
+    link: "campusgem.org",
   },
 ];
 
@@ -113,13 +113,13 @@ export const testimonials = [
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Isaac delivered far beyond our expectations for the National Communication Awards website. The platform expertly handles our entire awards lifecycle - from nominations to live voting. His solutions for real-time vote tracking and automated reporting transformed our digital strategy",
     name: "Richmond Anim Damoah",
     title: "CEO of RADComm Group",
   },
   {
     quote:
-      "Working with Isaac on our QuikNote website was a game-changer. He built a blazing-fast, responsive site that doubled our conversion rates. His implementation of modern payment systems and intuitive user flows significantly improved our customer experience. The analytics dashboard he created gives us invaluable insights into user behavior.",
+      "The technical infrastructure Isaac built for QuikNote has been transformative. Within months, we scaled to over 2,000 academic materials across 15+ institutions. His implementation of the virtual library system and student discussion platform created an ecosystem that's reshaping academic collaboration in Ghana.",
     name: "William Obese Gyau",
     title: "Co-Founder of QuikNote",
   },
@@ -158,8 +158,8 @@ export const companies = [
   },
   {
     id: 4,
-    name: "stream",
-    img: "/github-1.svg",
+    name: "GitHub",
+    img: "/git.svg",
     nameImg: "/streamName.svg",
   },
   {
