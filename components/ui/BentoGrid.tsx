@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
-
+import dynamic from 'next/dynamic';
 // Also install this npm i --save-dev @types/react-lottie
 // import Lottie from "react-lottie";
-import Lottie from "lottie-react";
+// import Lottie from "lottie-react";
 
 import { cn } from "@/lib/utils";
 
@@ -12,6 +12,14 @@ import { BackgroundGradientAnimation } from "./GradientBg";
 import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "../MagicButton";
+
+// Remove the direct Lottie import and use dynamic import instead
+const Lottie = dynamic(() => import('lottie-react'), {
+  ssr: false,
+  loading: () => <div className="h-[200px] w-[400px] animate-pulse bg-gray-200" />
+});
+
+
 
 export const BentoGrid = ({
   className,
